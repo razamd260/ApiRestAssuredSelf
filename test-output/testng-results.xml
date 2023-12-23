@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-22T00:01:33 IST" name="Default suite" finished-at="2023-12-22T00:01:35 IST" duration-ms="1391">
+    <groups>
+    </groups>
+    <test started-at="2023-12-22T00:01:33 IST" name="Default test" finished-at="2023-12-22T00:01:35 IST" duration-ms="1391">
+      <class name="Session24.DemoJsonInclude">
+        <test-method signature="testMethod1()[pri:0, instance:Session24.DemoJsonInclude@5d0a1059]" started-at="2023-12-22T00:01:33 IST" name="testMethod1" finished-at="2023-12-22T00:01:35 IST" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+      </class> <!-- Session24.DemoJsonInclude -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
