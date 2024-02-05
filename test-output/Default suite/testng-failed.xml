@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Session24.DemoJsonInclude">
+      <class name="RequestChaining.GetMethod">
         <methods>
-          <include name="testMethod1"/>
+          <include name="test02" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Session24.DemoJsonInclude -->
+      </class> <!-- RequestChaining.GetMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

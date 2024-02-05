@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-22T00:01:33 IST" name="Default suite" finished-at="2023-12-22T00:01:35 IST" duration-ms="1391">
+  <suite started-at="2024-02-05T21:35:52 IST" name="Default suite" finished-at="2024-02-05T21:35:59 IST" duration-ms="6291">
     <groups>
     </groups>
-    <test started-at="2023-12-22T00:01:33 IST" name="Default test" finished-at="2023-12-22T00:01:35 IST" duration-ms="1391">
-      <class name="Session24.DemoJsonInclude">
-        <test-method signature="testMethod1()[pri:0, instance:Session24.DemoJsonInclude@5d0a1059]" started-at="2023-12-22T00:01:33 IST" name="testMethod1" finished-at="2023-12-22T00:01:35 IST" duration-ms="1213" status="PASS">
+    <test started-at="2024-02-05T21:35:52 IST" name="Default test" finished-at="2024-02-05T21:35:59 IST" duration-ms="6291">
+      <class name="Authorization.BareaToken">
+        <test-method signature="test01()[pri:0, instance:Authorization.BareaToken@3e11f9e9]" started-at="2024-02-05T21:35:52 IST" name="test01" finished-at="2024-02-05T21:35:59 IST" duration-ms="6186" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod1 -->
-      </class> <!-- Session24.DemoJsonInclude -->
+        </test-method> <!-- test01 -->
+      </class> <!-- Authorization.BareaToken -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
