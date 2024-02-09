@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RequestChaining.GetMethod">
+      <class name="Authorization.WeatherAPI">
         <methods>
-          <include name="test02" invocation-numbers="0"/>
+          <include name="test01"/>
         </methods>
-      </class> <!-- RequestChaining.GetMethod -->
+      </class> <!-- Authorization.WeatherAPI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

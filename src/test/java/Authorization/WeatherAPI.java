@@ -16,11 +16,12 @@ public class WeatherAPI {
     
 	@Test
 	 public void test01() {
-		 RequestSpecification requestSpec = RestAssured.given();
-			requestSpec.baseUri("https://api.openweathermap.org");
-			requestSpec.basePath("/data/2.5/weather");
-			requestSpec.queryParam("city name", "delhi").queryParam("appid", "f6008b5be64d452d894a8075fb34022d");
-			requestSpec.get().then().log().all();
+		 given()
+			.queryParam("appid", "f6008b5be64d452d894a8075fb34022d").when().
+			   
+			   get("https://api.openweathermap.org/data/2.5/forecast/daily?q=Delhi&units=metric&cnt=7").
+			
+			     then().log().all();
 			
 	 }
 }

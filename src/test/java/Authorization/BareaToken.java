@@ -16,9 +16,9 @@ public class BareaToken {
 	public void test01() {
 		
 		
-		String AuthToken = "Bearer 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";
+		String AuthToken ="Bearer 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";
 		
-		given().baseUri("https://api.github.com/user/repos").auth().oauth2("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").contentType(ContentType.JSON).
+		given().baseUri("https://api.github.com/user/repos").headers("Authorization","Bearer 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").
 		
 		    when().get().
 		    

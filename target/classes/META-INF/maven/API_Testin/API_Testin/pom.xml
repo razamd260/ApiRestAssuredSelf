@@ -10,6 +10,13 @@
   </properties>
 
   <dependencies>
+	  
+	  <dependency>
+    <groupId>com.github.javafaker</groupId>
+    <artifactId>javafaker</artifactId>
+    <version>0.15</version>
+</dependency>
+	  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
